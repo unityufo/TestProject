@@ -11,6 +11,7 @@ jobs:
       matrix:
         targetPlatform:
           - Android # Build an Android .apk standalone app.
+          - StandaloneWindows # Build a Windows standalone.
 
     steps:
       - uses: actions/checkout@v2
